@@ -44,7 +44,7 @@ codesign --force --deep --sign - "Dist/Max2Ps2.app" >/dev/null
 
 # 附一份 zip，方便拷给别人
 rm -f "Dist/Max2Ps2.zip"
-ditto -c -k --keepParent "Dist/Max2Ps2.app" "Dist/Max2Ps2.zip"
+ditto -c -k --norsrc --noextattr --keepParent "Dist/Max2Ps2.app" "Dist/Max2Ps2.zip"
 
 echo "==> 完成：Dist/Max2Ps2.app（以及 Dist/Max2Ps2.zip）"
 if [ "$RUN" = "1" ]; then
