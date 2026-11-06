@@ -6,6 +6,11 @@
 
 ![界面截图](Docs/screenshot.png)
 
+## 下载
+
+不想自己编译：到 [Releases](https://github.com/ThecangShengdance/Max2Ps2/releases) 下载
+`Max2Ps2-1.0.0-macos.zip`，解压后把 `Max2Ps2.app` 拖进「应用程序」。
+
 ## 系统要求
 
 - macOS 14 (Sonoma) 或更高版本
@@ -96,3 +101,11 @@ Max2Ps2/
 ├── build.sh
 └── Max2Ps2.xcodeproj
 ```
+
+## 更新记录
+
+见 [CHANGELOG.md](CHANGELOG.md)。
+
+## 许可
+
+[MIT](LICENSE)
