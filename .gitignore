@@ -1,0 +1,19 @@
+# 构建产物
+.build/
+Dist/
+DerivedData/
+*.xcarchive
+
+# Xcode 用户数据
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+*.xccheckout
+
+# macOS
+.DS_Store
+._*
+
+# 临时文件
+*.bak-*
+*.corrupt-*
