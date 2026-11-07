@@ -108,4 +108,11 @@ Max2Ps2/
 
 ## 许可
 
-[MIT](LICENSE)
+[GNU GPL v3 或更新版本](LICENSE)
+
+本项目的格式解析与 LZARI 解压在实现时参考了同样以 GPLv3 授权的
+[mymc+](https://git.sr.ht/~thestr4ng3r/mymcplus)（作者 Florian Märkl，基于 Ross Ridge 的 mymc），
+因此整体按 GNU GPL v3（或更新版本）授权发布。第三方组件、算法出处与商标说明见 [NOTICE](NOTICE)。
+
+> 本程序与 Sony Interactive Entertainment、Datel、PCSX2 项目均无关联，也未获其背书。
+> 文中出现的 PS2、PlayStation、Memory Card、MAX Drive 等名称仅用于说明格式与兼容性。

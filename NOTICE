@@ -1,0 +1,46 @@
+Max2Ps2 — NOTICE
+
+Copyright (C) 2026 ThecangShengdance
+
+This program is free software: you can redistribute it and/or modify it under
+the terms of the GNU General Public License as published by the Free Software
+Foundation, either version 3 of the License, or (at your option) any later
+version.
+
+This program is distributed in the hope that it will be useful, but WITHOUT
+ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more
+details.  You should have received a copy of the GNU General Public License
+along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+Third-party components and references
+-------------------------------------
+
+1. mymc+ — https://git.sr.ht/~thestr4ng3r/mymcplus
+   Copyright (C) Florian Märkl, based on mymc by Ross Ridge.
+   Licensed under the GNU General Public License v3.
+
+   The LZARI decompressor, the PS2 memory card layout (superblock, FAT,
+   directory entries, ECC) and the MAX Drive container parser in this project
+   were written with reference to mymc+ and are therefore distributed under
+   the same license.  Affected files:
+
+       Sources/Core/LZARI.swift
+       Sources/Core/PS2ECC.swift
+       Sources/Core/MemoryCard.swift
+       Sources/Core/MaxSave.swift
+
+2. LZARI algorithm — Haruhiko Okumura (1989).
+   The .max container used by Datel MAX Drive compresses its payload with
+   LZARI (arithmetic coding + LZSS).  The decoder follows that published
+   algorithm.
+
+Trademarks
+----------
+
+"PlayStation", "PS2" and "Memory Card" are trademarks of Sony Interactive
+Entertainment.  "MAX Drive" is a trademark of Datel.  "PCSX2" is a project of
+the PCSX2 team.
+
+This project is not affiliated with, endorsed by, or sponsored by any of the
+above.  Those names are used only to describe compatibility.

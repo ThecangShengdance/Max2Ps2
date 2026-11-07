@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 ThecangShengdance
 //
 //  main.swift
 //  Max2Ps2 CLI（用于开发期验证核心逻辑，不参与 App 打包）

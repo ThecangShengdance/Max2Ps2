@@ -1,3 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+// Copyright (C) 2026 ThecangShengdance
 //
 //  model_test.swift
 //  Max2Ps2 开发期 UI 流程测试（不参与 App 打包）
