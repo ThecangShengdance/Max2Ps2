@@ -207,12 +207,13 @@ struct ContentView: View {
                                                 Image(systemName: "folder")
                                                 Text(save.name).lineLimit(1).truncationMode(.middle)
                                                 if save.name == model.sanitizedDirName {
-                                                    Text("将被覆盖")
+                                                    let justImported = model.lastReport?.dirName == save.name
+                                                    Text(justImported ? "刚刚写入" : "将被覆盖")
                                                         .font(.caption2.weight(.semibold))
                                                         .padding(.horizontal, 6)
                                                         .padding(.vertical, 2)
-                                                        .background(Capsule().fill(Color.orange.opacity(0.18)))
-                                                        .foregroundStyle(.orange)
+                                                        .background(Capsule().fill((justImported ? Color.green : Color.orange).opacity(0.18)))
+                                                        .foregroundStyle(justImported ? Color.green : Color.orange)
                                                 }
                                                 Spacer()
                                                 Text("\(save.files.count) 文件 · \(Format.bytes(save.bytes))")
